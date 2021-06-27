@@ -154,7 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2025964052b7076408c5ea5c2f793a0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridSize: 3
+  gridSize: 9
   maxTileDist: 10
   emptyGenerator: {fileID: 1541789213016802, guid: b002d917734b6ce469e989de43bd80b3,
     type: 2}
