@@ -154,15 +154,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2025964052b7076408c5ea5c2f793a0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridSize: 9
+  gridSize: 5
   maxTileDist: 10
   emptyGenerator: {fileID: 1541789213016802, guid: b002d917734b6ce469e989de43bd80b3,
     type: 2}
   player: {fileID: 1025633957526826, guid: 7dd6d840cfdcf5844ae3ecd5a178d8ea, type: 2}
   exit: {fileID: 1769078690369632, guid: b7b1718511f5ea044aa99b1a8a4f8f4f, type: 2}
-  exitSpawnPos: {x: 0, y: 0, z: 0}
   instantiatePos: {x: 0, y: 0, z: 0}
-  playerSpawnPos: {x: 0, y: 0, z: 0}
   offsetPos: 0
 --- !u!114 &2013461658
 MonoBehaviour:

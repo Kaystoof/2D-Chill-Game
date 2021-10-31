@@ -8,21 +8,13 @@ public class ExitGenerator : MonoBehaviour {
 
     public GameObject exit;
 
-
-
+    
     Vector3 exitSpawnPos;
 
     //Determines whether X or Y will be the maximum value for exit location  
     bool maxX = false;
 
     int maxSign = 0;
-
-	// Use this for initialization
-	void Start () {
-        
-        
-    }
-
 
     public void SpawnExit(float _offsetPos, float _maxTileDist)
     {
@@ -72,12 +64,5 @@ public class ExitGenerator : MonoBehaviour {
         Debug.Log("maxTileDist = " + _maxTileDist);
 
         Debug.Log(maxX);
-
-
     }
-
-    // Update is called once per frame
-    void Update () {
-		
-	}
 }

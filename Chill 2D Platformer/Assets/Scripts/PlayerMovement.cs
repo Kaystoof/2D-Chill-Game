@@ -37,8 +37,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void Move()
     {
-        
-
         valX = Input.GetAxis("Horizontal") * speed;
        
         rb2D.AddForce(new Vector2(valX, 0));
@@ -75,8 +73,6 @@ public class PlayerMovement : MonoBehaviour
             Jumps = maxJumps;
             grounded = true;
         }
-        
-
     }
 
     private void OnCollisionExit2D(Collision2D collision)
@@ -92,13 +88,6 @@ public class PlayerMovement : MonoBehaviour
         {
           
             SceneManager.LoadScene("level1");
-
-            
         }
-
     }
-
-    
-
-
 }
